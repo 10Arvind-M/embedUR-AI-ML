@@ -70,7 +70,7 @@ The datasets used for each assignment can be downloaded from the following sourc
 | Q1 | Sales CSV Dataset | https://www.kaggle.com/datasets/anairamcosta/sales-csv |
 | Q2 | Sample Application Log File | Included in this repository (`application.log`) |
 | Q3 | Iris Dataset | https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html |
-| Q4 | MNIST Handwritten Digits | https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html *(or TensorFlow MNIST dataset if used)* |
+| Q4 | MNIST Handwritten Digits | https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html |
 | Q5 | Titanic - Machine Learning from Disaster | https://www.kaggle.com/competitions/titanic/data |
 | Q6 | SMS Spam Collection Dataset | https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset |
 | Q7 | Rock Paper Scissors Dataset | https://www.kaggle.com/datasets/drgfreeman/rockpaperscissors |
