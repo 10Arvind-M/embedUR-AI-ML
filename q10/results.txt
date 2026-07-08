@@ -1,0 +1,35 @@
+Heart Disease Prediction
+
+Accuracy : 0.8033
+
+              precision    recall  f1-score   support
+
+           0       0.81      0.75      0.78        28
+           1       0.80      0.85      0.82        33
+
+    accuracy                           0.80        61
+   macro avg       0.80      0.80      0.80        61
+weighted avg       0.80      0.80      0.80        61
+
+
+Feature Importance
+ Feature  Importance
+   exang    0.163810
+    thal    0.153842
+      ca    0.144487
+      cp    0.133165
+   slope    0.087619
+ oldpeak    0.072566
+     sex    0.070106
+ thalach    0.066167
+     age    0.031782
+trestbps    0.025481
+    chol    0.020172
+     fbs    0.016813
+ restecg    0.013990
+
+ Error Analysis
+ The Extra Trees classifier, combined with feature engineering and hyperparameter tuning, achieved an accuracy of 80.33% on the test dataset. The model produced balanced precision, recall, and F1-score for both classes, indicating reliable performance in classifying patients with and without heart disease. Although the model correctly classified most samples, a few healthy patients were predicted as having heart disease (false positives), and some patients with heart disease were predicted as healthy (false negatives). In a medical application, minimizing false negatives is especially important because missed diagnoses may delay treatment. Further improvements may be achieved by increasing the dataset size, applying advanced feature engineering, or using gradient boosting algorithms such as XGBoost.
+
+ Business Insights
+ Feature importance analysis shows that Exercise-Induced Angina (exang), Thalassemia (thal), Number of Major Vessels (ca), Chest Pain Type (cp), and Slope of the ST Segment (slope) are the most significant predictors of heart disease. These factors can help healthcare professionals identify patients who are at higher risk and prioritize them for further medical evaluation. The developed model can serve as a decision-support system for early risk assessment, assisting doctors in preventive healthcare planning and improving patient outcomes. However, the model should be used to support clinical decision-making rather than replace professional medical diagnosis.

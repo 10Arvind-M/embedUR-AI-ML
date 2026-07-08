@@ -1,0 +1,52 @@
+Spam Email Classification
+===========================
+First 5 Records
+  Label                                            Message
+0   ham  Go until jurong point, crazy.. Available only ...
+1   ham                      Ok lar... Joking wif u oni...
+2  spam  Free entry in 2 a wkly comp to win FA Cup fina...
+3   ham  U dun say so early hor... U c already then say...
+4   ham  Nah I don't think he goes to usf, he lives aro...
+
+Dataset Information
+<class 'pandas.DataFrame'>
+RangeIndex: 5572 entries, 0 to 5571
+Data columns (total 2 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   Label    5572 non-null   str  
+ 1   Message  5572 non-null   str  
+dtypes: str(2)
+memory usage: 542.9 KB
+None
+First 5 Records
+  Label                                            Message
+0   ham  Go until jurong point, crazy.. Available only ...
+1   ham                      Ok lar... Joking wif u oni...
+2  spam  Free entry in 2 a wkly comp to win FA Cup fina...
+3   ham  U dun say so early hor... U c already then say...
+4   ham  Nah I don't think he goes to usf, he lives aro...
+
+Dataset Information
+<class 'pandas.DataFrame'>
+RangeIndex: 5572 entries, 0 to 5571
+Data columns (total 2 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   Label    5572 non-null   str  
+ 1   Message  5572 non-null   str  
+ 
+Accuracy  : 0.9785
+Precision : 1.0000
+Recall    : 0.8389
+F1 Score  : 0.9124
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99       966
+           1       1.00      0.84      0.91       149
+
+    accuracy                           0.98      1115
+   macro avg       0.99      0.92      0.95      1115
+weighted avg       0.98      0.98      0.98      1115

@@ -1,0 +1,5 @@
+MNIST DIGIT CLASSIFIER
+========================
+
+Training Accuracy : 93.89%
+Testing Accuracy  : 92.03%

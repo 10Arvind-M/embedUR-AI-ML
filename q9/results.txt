@@ -1,0 +1,4 @@
+Precision : 0.9781
+Recall : 0.9922
+F1 Score : 0.9851
+Inference Time : 0.015362 sec/image

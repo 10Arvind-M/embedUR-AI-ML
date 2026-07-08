@@ -1,0 +1,18 @@
+Module,Log Level,Count
+API,ERROR,4
+API,WARNING,4
+Authentication,ERROR,2
+Authentication,WARNING,2
+Database,ERROR,2
+Database,WARNING,3
+Inventory,WARNING,1
+Notification,ERROR,4
+Notification,WARNING,1
+Orders,ERROR,3
+Orders,WARNING,2
+Payment,ERROR,2
+Reports,ERROR,3
+Shipping,ERROR,1
+Shipping,WARNING,1
+UserManagement,ERROR,1
+UserManagement,WARNING,4
